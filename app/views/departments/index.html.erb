@@ -1,0 +1,22 @@
+<%#= link_to "New Departments", new_departments_path %>
+
+<div>
+<h2>Department :</h2>
+
+<table>
+	<thead>
+	  <tr>
+	    <th>Id</th>
+	    <th>Name</th>
+	    <th>Description</th>
+	  </tr>
+	</thead>
+	<% @departments.each do |department|%>
+	  <tr>
+	    <td><%=department.id%></td>
+	    <td><%=department.name%></td>
+	    <td><%=department.description%></td>
+	  </tr>
+	<%end%>
+</table>
+</div>

@@ -1,0 +1,21 @@
+<div>
+<h2>Groups :</h2>
+<table>
+	<thead>
+	  <tr>
+	    <th>Id</th>
+	    <th>Name</th>
+	    <th>Round Number</th>
+	    <th>Participants</th>
+	  </tr>
+	</thead>
+	<% @groups.present? && @groups.each do |group|%>
+	  <tr>
+	    <td><%=group.id%></td>
+	    <td><%=group.name%></td>
+	    <td><%=group.round_number%></td>
+	    <td><%=name_of_selected_users(group)%></td>
+	  </tr>
+	<%end%>
+</table>
+</div>

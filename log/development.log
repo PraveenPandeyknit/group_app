@@ -1,0 +1,1294 @@
+Started GET "/" for ::1 at 2020-07-11 19:55:11 +0530
+  
+ActiveRecord::NoDatabaseError (Unknown database 'create_group_app_development'):
+  
+activerecord (5.2.4.3) lib/active_record/connection_adapters/mysql2_adapter.rb:26:in `rescue in mysql2_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/mysql2_adapter.rb:12:in `mysql2_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+activerecord (5.2.4.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.4.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.4.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/" for ::1 at 2020-07-11 23:01:26 +0530
+  
+ActiveRecord::NoDatabaseError (Unknown database 'create_group_app_development'):
+  
+activerecord (5.2.4.3) lib/active_record/connection_adapters/mysql2_adapter.rb:26:in `rescue in mysql2_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/mysql2_adapter.rb:12:in `mysql2_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.4.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+activerecord (5.2.4.3) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.4.3) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.4.3) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/" for ::1 at 2020-07-11 23:02:26 +0530
+  [1m[35m (53.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/activerecord-5.2.4.3/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.4.3) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.4.3) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/" for ::1 at 2020-07-11 23:08:30 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  Rendered departments/index.html.erb within layouts/application (40.9ms)
+Completed 500 Internal Server Error in 62ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_departments_path' for #<#<Class:0x0000000008a8cf20>:0x0000000008a9e9f0>
+Did you mean?  new_department_path
+               new_department_url):
+    1: <%= link_to "New Departments", new_departments_path %>
+  
+app/views/departments/index.html.erb:1:in `_app_views_departments_index_html_erb__296154469_72643040'
+Started GET "/" for ::1 at 2020-07-11 23:10:35 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  Rendered departments/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1764ms (Views: 1761.3ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 23:11:13 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  Rendered departments/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 52ms (Views: 49.5ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 23:47:51 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  Rendered departments/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 315ms (Views: 50.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 23:48:57 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  Rendered departments/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 120ms (Views: 115.7ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 23:52:58 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ app/views/departments/index.html.erb:31
+  [1m[36mDepartment Load (0.6ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:31
+  Rendered departments/index.html.erb within layouts/application (208.0ms)
+Completed 200 OK in 320ms (Views: 315.1ms | ActiveRecord: 58.9ms)
+
+
+Started GET "/" for ::1 at 2020-07-11 23:53:12 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[36mDepartment Load (0.9ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:31
+  Rendered departments/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 160ms (Views: 151.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/department" for ::1 at 2020-07-11 23:53:30 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/department"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/departments" for ::1 at 2020-07-11 23:53:34 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:31
+  Rendered departments/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 55ms (Views: 52.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/departments" for ::1 at 2020-07-11 23:55:48 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[36mDepartment Load (0.7ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:31
+  Rendered departments/index.html.erb within layouts/application (36.5ms)
+Completed 200 OK in 293ms (Views: 251.8ms | ActiveRecord: 25.5ms)
+
+
+Started GET "/departments" for ::1 at 2020-07-11 23:57:16 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[36mDepartment Load (0.7ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:31
+  Rendered departments/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 583ms (Views: 575.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/departments" for ::1 at 2020-07-11 23:57:33 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[36mDepartment Load (0.5ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:31
+  Rendered departments/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 128ms (Views: 121.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/departments" for ::1 at 2020-07-11 23:57:51 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ app/views/departments/index.html.erb:31
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:31
+  Rendered departments/index.html.erb within layouts/application (58.7ms)
+Completed 200 OK in 597ms (Views: 467.6ms | ActiveRecord: 17.7ms)
+
+
+Started GET "/departments" for ::1 at 2020-07-12 00:05:22 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ app/views/departments/index.html.erb:14
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:14
+  Rendered departments/index.html.erb within layouts/application (58.8ms)
+Completed 200 OK in 488ms (Views: 359.2ms | ActiveRecord: 18.4ms)
+
+
+Started GET "/employees" for ::1 at 2020-07-12 00:05:32 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/employees"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/employees" for ::1 at 2020-07-12 00:05:50 +0530
+  
+ActionController::RoutingError (uninitialized constant EmployeesController):
+  
+activesupport (5.2.4.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.4.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.4.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.4.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.4.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.4.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.4.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/employeess" for ::1 at 2020-07-12 00:06:11 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/employeess"):
+  
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/employeess" for ::1 at 2020-07-12 00:06:21 +0530
+Processing by EmployeessController#index as HTML
+  Rendering employeess/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT `employees`.* FROM `employees`[0m
+  ↳ app/views/employeess/index.html.erb:11
+  Rendered employeess/index.html.erb within layouts/application (155.6ms)
+Completed 500 Internal Server Error in 171ms (ActiveRecord: 100.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `description' for #<Employee:0x000000000ce8f6a0>):
+    12: 	  <tr>
+    13: 	    <td><%=employee.id%></td>
+    14: 	    <td><%=employee.name%></td>
+    15: 	    <td><%=employee.description%></td>
+    16: 	  </tr>
+    17: 	<%end%>
+    18: </table>
+  
+app/views/employeess/index.html.erb:15:in `block in _app_views_employeess_index_html_erb__502465018_107940520'
+app/views/employeess/index.html.erb:11:in `_app_views_employeess_index_html_erb__502465018_107940520'
+Started GET "/employeess" for ::1 at 2020-07-12 00:07:36 +0530
+Processing by EmployeessController#index as HTML
+  Rendering employeess/index.html.erb within layouts/application
+  [1m[36mEmployee Load (1.1ms)[0m  [1m[34mSELECT `employees`.* FROM `employees`[0m
+  ↳ app/views/employeess/index.html.erb:12
+  Rendered employeess/index.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 190ms (Views: 180.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/employeess" for ::1 at 2020-07-12 12:24:45 +0530
+Processing by EmployeessController#index as HTML
+  Rendering employeess/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ app/views/employeess/index.html.erb:12
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT `employees`.* FROM `employees`[0m
+  ↳ app/views/employeess/index.html.erb:12
+  Rendered employeess/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 129ms (Views: 124.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/departments" for ::1 at 2020-07-12 12:24:48 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:14
+  Rendered departments/index.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 81ms (Views: 56.8ms | ActiveRecord: 17.1ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 15:37:47 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ app/views/departments/index.html.erb:14
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:14
+  Rendered departments/index.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 694ms (Views: 686.5ms | ActiveRecord: 21.8ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 15:38:10 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 106ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 15:39:51 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 103ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/departments" for ::1 at 2020-07-12 15:39:54 +0530
+Processing by DepartmentsController#create as HTML
+  Parameters: {"authenticity_token"=>"Rrg073V9euabgOuYvHfzwPcz/phbschNc6zmPqOrFA5eETkeXq33KjUvYecj/lOilMAXjh/0Fy4Q8Scv+HdM3w=="}
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `department_params' for #<DepartmentsController:0x000000000cc7cf70>
+Did you mean?  department_path
+               department_url
+               departments_path):
+  
+app/controllers/departments_controller.rb:9:in `create'
+Started GET "/" for ::1 at 2020-07-12 15:40:11 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (36.4ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `departments_index_path' for #<#<Class:0x000000000ce42ff8>:0x000000000a127cd0>
+Did you mean?  departments_path):
+    1: <h1>HomePage#index</h1>
+    2: <p>Find me in app/views/home_page/index.html.erb</p>
+    3: <%= button_to "Show Departments", departments_index_path %>
+  
+app/views/home_page/index.html.erb:3:in `_app_views_home_page_index_html_erb__85286491_86821240'
+Started GET "/" for ::1 at 2020-07-12 15:57:30 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 70ms (Views: 65.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 15:57:51 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 131ms (Views: 127.4ms)
+
+
+Started GET "/departments" for ::1 at 2020-07-12 15:57:56 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ app/views/departments/index.html.erb:14
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:14
+  Rendered departments/index.html.erb within layouts/application (36.9ms)
+Completed 200 OK in 88ms (Views: 85.6ms | ActiveRecord: 26.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 15:59:16 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 74ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 15:59:25 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 55ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 15:59:32 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 62ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/departments" for ::1 at 2020-07-12 15:59:35 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:14
+  Rendered departments/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 65ms (Views: 62.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/departments" for ::1 at 2020-07-12 15:59:38 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:14
+  Rendered departments/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 63ms (Views: 60.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/departments" for ::1 at 2020-07-12 15:59:41 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:14
+  Rendered departments/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 60ms (Views: 57.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 15:59:59 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 56ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/employees" for ::1 at 2020-07-12 16:00:02 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT `employees`.* FROM `employees`[0m
+  ↳ app/views/employees/index.html.erb:12
+  Rendered employees/index.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 83ms (Views: 56.9ms | ActiveRecord: 19.4ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 16:05:42 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 58ms (Views: 53.9ms)
+
+
+Started GET "/employees" for ::1 at 2020-07-12 16:05:55 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ app/views/employees/index.html.erb:12
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT `employees`.* FROM `employees`[0m
+  ↳ app/views/employees/index.html.erb:12
+  Rendered employees/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 95ms (Views: 91.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 16:06:22 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 85ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups" for ::1 at 2020-07-12 16:06:25 +0530
+Processing by GroupsController#index as HTML
+  Rendering groups/index.html.erb within layouts/application
+  Rendered groups/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 98ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/employees" for ::1 at 2020-07-12 16:06:30 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT `employees`.* FROM `employees`[0m
+  ↳ app/views/employees/index.html.erb:12
+  Rendered employees/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 58ms (Views: 55.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/departments" for ::1 at 2020-07-12 16:06:33 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:14
+  Rendered departments/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 58ms (Views: 56.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 17:44:05 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 68ms (Views: 65.4ms)
+
+
+Started GET "/groups" for ::1 at 2020-07-12 17:44:08 +0530
+Processing by GroupsController#index as HTML
+  Rendering groups/index.html.erb within layouts/application
+  Rendered groups/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 50ms (Views: 48.2ms)
+
+
+Started GET "/groups" for ::1 at 2020-07-12 17:45:09 +0530
+Processing by GroupsController#index as HTML
+  Rendering groups/index.html.erb within layouts/application
+  Rendered groups/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 53ms (Views: 50.9ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 17:45:11 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 62ms (Views: 59.3ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 17:46:30 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 64ms (Views: 61.2ms)
+
+
+Started GET "/employees" for ::1 at 2020-07-12 17:47:52 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ app/views/employees/index.html.erb:12
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT `employees`.* FROM `employees`[0m
+  ↳ app/views/employees/index.html.erb:12
+  Rendered employees/index.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 91ms (Views: 85.4ms | ActiveRecord: 25.2ms)
+
+
+Started GET "/departments" for ::1 at 2020-07-12 17:47:59 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:14
+  Rendered departments/index.html.erb within layouts/application (21.9ms)
+Completed 200 OK in 76ms (Views: 56.7ms | ActiveRecord: 15.2ms)
+
+
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mEmployee Load (38.0ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  [1m[36mDepartment Load (18.1ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  [1m[36mEmployee Load (0.9ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 1 LIMIT 11[0m
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT `employees`.* FROM `employees` WHERE `employees`.`department_id` = 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+Started GET "/" for ::1 at 2020-07-12 18:10:00 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 95ms (Views: 90.6ms)
+
+
+Started GET "/employees" for ::1 at 2020-07-12 18:10:04 +0530
+Processing by EmployeesController#index as HTML
+  Rendering employees/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ app/views/employees/index.html.erb:13
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT `employees`.* FROM `employees`[0m
+  ↳ app/views/employees/index.html.erb:13
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  ↳ app/models/employee.rb:6
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m
+  ↳ app/models/employee.rb:6
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  [1m[36mCACHE Department Load (0.0ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/models/employee.rb:6
+  Rendered employees/index.html.erb within layouts/application (133.3ms)
+Completed 200 OK in 196ms (Views: 180.7ms | ActiveRecord: 47.0ms)
+
+
+  [1m[36mGroup Load (0.5ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+Started GET "/" for ::1 at 2020-07-12 18:41:12 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 56ms (Views: 54.1ms)
+
+
+  [1m[36mGroup Load (0.5ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  [1m[36mGroup Load (0.3ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  [1m[36mDepartment Load (0.5ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` LIMIT 11[0m
+  [1m[35m (59.6ms)[0m  [1m[34mSELECT COUNT(*) FROM `departments`[0m
+  [1m[36mDepartment Load (0.6ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` LIMIT 11[0m
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  [1m[36mDepartment Load (0.5ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT  `departments`.`id` FROM `departments` LIMIT 11[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `departments`.`id` FROM `departments`[0m
+  [1m[36mDepartment Load (0.5ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 1 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 1 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `departments`.`id` FROM `departments`[0m
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 1 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `departments`.`id` FROM `departments`[0m
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 1 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 2 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 3 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  [1m[36mGroup Load (0.5ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` ASC LIMIT 1[0m
+  [1m[36mGroup Load (25.7ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` GROUP BY `groups`.`round_number` LIMIT 11[0m
+Started GET "/" for ::1 at 2020-07-12 21:09:49 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 117ms (Views: 112.2ms)
+
+
+Started GET "/groups/new" for ::1 at 2020-07-12 21:09:52 +0530
+  
+AbstractController::ActionNotFound (The action 'new' could not be found for GroupsController):
+  
+actionpack (5.2.4.3) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.4.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.4.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.4.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.4.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.4.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.4.3) lib/rails/engine.rb:524:in `call'
+rack (2.2.3) lib/rack/handler/webrick.rb:95:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:140:in `service'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/httpserver.rb:96:in `run'
+C:/Ruby26-x64/lib/ruby/2.6.0/webrick/server.rb:307:in `block in start_thread'
+Started GET "/" for ::1 at 2020-07-12 21:10:18 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 71ms (Views: 68.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 21:13:33 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (54.2ms)
+Completed 500 Internal Server Error in 72ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `create_group_path' for #<#<Class:0x000000000a19f9d8>:0x00000000083f4640>):
+    6: <br><br>
+    7: <%= link_to "Existing groups", groups_path %>
+    8: <br><br>
+    9: <%= link_to "Create a groups", create_group_path %>
+  
+app/views/home_page/index.html.erb:9:in `_app_views_home_page_index_html_erb__85286491_69091740'
+Started GET "/" for ::1 at 2020-07-12 21:14:52 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 58ms (Views: 55.8ms)
+
+
+Started GET "/groups/new" for ::1 at 2020-07-12 21:14:54 +0530
+Processing by GroupsController#new as HTML
+Completed 500 Internal Server Error in 23ms
+
+
+  
+NameError (undefined local variable or method `current_group_number' for Group (call 'Group.connection' to establish a connection):Class
+Did you mean?  current_scope):
+  
+app/models/group.rb:6:in `create_new_group'
+app/controllers/groups_controller.rb:6:in `new'
+Started GET "/" for ::1 at 2020-07-12 21:16:45 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 865ms (Views: 858.1ms)
+
+
+Started GET "/groups/new" for ::1 at 2020-07-12 21:16:48 +0530
+Processing by GroupsController#new as HTML
+Completed 500 Internal Server Error in 91ms
+
+
+  
+NameError (undefined local variable or method `current_group_number' for Group (call 'Group.connection' to establish a connection):Class
+Did you mean?  current_scope):
+  
+app/models/group.rb:6:in `create_new_group'
+app/controllers/groups_controller.rb:6:in `new'
+  [1m[36mGroup Load (0.4ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  [1m[36mGroup Load (0.4ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  [1m[36mGroup Load (0.3ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  [1m[36mGroup Load (0.3ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  [1m[36mGroup Load (0.3ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT `departments`.`id` FROM `departments`[0m
+  [1m[36mDepartment Load (0.8ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  [1m[36mEmployee Load (0.9ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 1 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  [1m[36mDepartment Load (0.8ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m
+  [1m[36mEmployee Load (0.8ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 2 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  [1m[36mDepartment Load (0.9ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m
+  [1m[36mEmployee Load (0.8ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 3 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  [1m[35m (32.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGroup Create (19.5ms)[0m  [1m[32mINSERT INTO `groups` (`name`, `round_number`, `round_started_on`, `created_at`, `updated_at`) VALUES ('Group 1', 1, '2020-07-12 00:00:00', '2020-07-12 16:01:08', '2020-07-12 16:01:08')[0m
+  [1m[35m (58.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGroup Create (1.4ms)[0m  [1m[32mINSERT INTO `groups` (`name`, `round_number`, `round_started_on`, `created_at`, `updated_at`) VALUES ('Group 1', 1, '2020-07-12 00:00:00', '2020-07-12 16:01:08', '2020-07-12 16:01:08')[0m
+  [1m[35m (55.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGroup Create (24.6ms)[0m  [1m[32mINSERT INTO `groups` (`name`, `round_number`, `round_started_on`, `created_at`, `updated_at`) VALUES ('Group 1', 1, '2020-07-12 00:00:00', '2020-07-12 16:01:09', '2020-07-12 16:01:09')[0m
+  [1m[35m (38.0ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for ::1 at 2020-07-12 21:32:49 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 66ms (Views: 63.0ms)
+
+
+Started GET "/groups/new" for ::1 at 2020-07-12 21:32:52 +0530
+Processing by GroupsController#new as HTML
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ app/models/group.rb:15
+  [1m[36mGroup Load (0.4ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  ↳ app/models/group.rb:15
+  [1m[36mCACHE Group Load (0.0ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  ↳ app/models/group.rb:15
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `departments`.`id` FROM `departments`[0m
+  ↳ app/models/department.rb:7
+  [1m[36mDepartment Load (0.6ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  ↳ app/models/department.rb:10
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 1 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  ↳ app/models/department.rb:11
+  [1m[36mDepartment Load (0.7ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m
+  ↳ app/models/department.rb:10
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 2 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  ↳ app/models/department.rb:11
+  [1m[36mDepartment Load (0.7ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m
+  ↳ app/models/department.rb:10
+  [1m[36mEmployee Load (0.8ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 3 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  ↳ app/models/department.rb:11
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/group.rb:21
+  [1m[36mGroup Create (0.6ms)[0m  [1m[32mINSERT INTO `groups` (`name`, `round_number`, `round_started_on`, `created_at`, `updated_at`) VALUES ('Group 1', 1, '2020-07-12 00:00:00', '2020-07-12 16:02:52', '2020-07-12 16:02:52')[0m
+  ↳ app/models/group.rb:21
+  [1m[35m (27.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/group.rb:21
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/group.rb:21
+  [1m[36mGroup Create (0.7ms)[0m  [1m[32mINSERT INTO `groups` (`name`, `round_number`, `round_started_on`, `created_at`, `updated_at`) VALUES ('Group 1', 1, '2020-07-12 00:00:00', '2020-07-12 16:02:52', '2020-07-12 16:02:52')[0m
+  ↳ app/models/group.rb:21
+  [1m[35m (38.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/group.rb:21
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/group.rb:21
+  [1m[36mGroup Create (23.9ms)[0m  [1m[32mINSERT INTO `groups` (`name`, `round_number`, `round_started_on`, `created_at`, `updated_at`) VALUES ('Group 1', 1, '2020-07-12 00:00:00', '2020-07-12 16:02:52', '2020-07-12 16:02:52')[0m
+  ↳ app/models/group.rb:21
+  [1m[35m (50.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/group.rb:21
+Completed 500 Internal Server Error in 600ms (ActiveRecord: 220.1ms)
+
+
+  
+NoMethodError (undefined method `group_by' for #<Class:0x000000000cfaf198>
+Did you mean?  group):
+  
+app/controllers/groups_controller.rb:7:in `new'
+Started GET "/" for ::1 at 2020-07-12 21:34:09 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 83ms (Views: 78.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups/new" for ::1 at 2020-07-12 21:34:11 +0530
+Processing by GroupsController#new as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  ↳ app/models/group.rb:15
+  [1m[36mCACHE Group Load (0.0ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  ↳ app/models/group.rb:15
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `departments`.`id` FROM `departments`[0m
+  ↳ app/models/department.rb:7
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  ↳ app/models/department.rb:10
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 1 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  ↳ app/models/department.rb:11
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m
+  ↳ app/models/department.rb:10
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 2 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  ↳ app/models/department.rb:11
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m
+  ↳ app/models/department.rb:10
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 3 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  ↳ app/models/department.rb:11
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/group.rb:21
+  [1m[36mGroup Create (15.5ms)[0m  [1m[32mINSERT INTO `groups` (`name`, `round_number`, `round_started_on`, `created_at`, `updated_at`) VALUES ('Group 1', 1, '2020-07-12 00:00:00', '2020-07-12 16:04:11', '2020-07-12 16:04:11')[0m
+  ↳ app/models/group.rb:21
+  [1m[35m (78.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/group.rb:21
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/group.rb:21
+  [1m[36mGroup Create (1.4ms)[0m  [1m[32mINSERT INTO `groups` (`name`, `round_number`, `round_started_on`, `created_at`, `updated_at`) VALUES ('Group 1', 1, '2020-07-12 00:00:00', '2020-07-12 16:04:11', '2020-07-12 16:04:11')[0m
+  ↳ app/models/group.rb:21
+  [1m[35m (49.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/group.rb:21
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/group.rb:21
+  [1m[36mGroup Create (1.2ms)[0m  [1m[32mINSERT INTO `groups` (`name`, `round_number`, `round_started_on`, `created_at`, `updated_at`) VALUES ('Group 1', 1, '2020-07-12 00:00:00', '2020-07-12 16:04:11', '2020-07-12 16:04:11')[0m
+  ↳ app/models/group.rb:21
+  [1m[35m (32.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/group.rb:21
+  Rendering groups/index.html.erb within layouts/application
+  Rendered groups/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 539ms (Views: 197.1ms | ActiveRecord: 220.8ms)
+
+
+  [1m[36mGroup Load (0.5ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` LIMIT 11[0m
+  [1m[36mGroup Load (0.7ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` GROUP BY `groups`.`round_number` LIMIT 11[0m
+Started GET "/groups/new" for ::1 at 2020-07-12 22:09:16 +0530
+Processing by GroupsController#new as HTML
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ app/models/group.rb:15
+  [1m[36mGroup Load (0.6ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  ↳ app/models/group.rb:15
+  [1m[36mCACHE Group Load (0.0ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  ↳ app/models/group.rb:15
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `departments`.`id` FROM `departments`[0m
+  ↳ app/models/department.rb:7
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  ↳ app/models/department.rb:10
+  [1m[36mEmployee Load (8.6ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 1 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  ↳ app/models/department.rb:11
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m
+  ↳ app/models/department.rb:10
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 2 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  ↳ app/models/department.rb:11
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m
+  ↳ app/models/department.rb:10
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 3 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  ↳ app/models/department.rb:11
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/group.rb:20
+  [1m[36mGroup Create (7.0ms)[0m  [1m[32mINSERT INTO `groups` (`name`, `round_number`, `round_started_on`, `created_at`, `updated_at`, `participants`) VALUES ('Group 1', 1, '2020-07-12 00:00:00', '2020-07-12 16:39:17', '2020-07-12 16:39:17', '[1, 2, 3]')[0m
+  ↳ app/models/group.rb:20
+  [1m[35m (43.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/group.rb:20
+  Rendering groups/index.html.erb within layouts/application
+  Rendered groups/index.html.erb within layouts/application (12.8ms)
+Completed 500 Internal Server Error in 214ms (ActiveRecord: 104.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9: 	    <th>Participants</th>
+    10: 	  </tr>
+    11: 	</thead>
+    12: 	<% @groups.each do |group|%>
+    13: 	  <tr>
+    14: 	    <td><%=group.id%></td>
+    15: 	    <td><%=group.name%></td>
+  
+app/views/groups/index.html.erb:12:in `_app_views_groups_index_html_erb__83049399_84751500'
+app/controllers/groups_controller.rb:8:in `new'
+Started GET "/groups" for ::1 at 2020-07-12 22:13:12 +0530
+Processing by GroupsController#index as HTML
+  Rendering groups/index.html.erb within layouts/application
+  Rendered groups/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 65ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 22:13:18 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 76ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups/new" for ::1 at 2020-07-12 22:13:20 +0530
+Processing by GroupsController#new as HTML
+  [1m[36mGroup Load (0.5ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  ↳ app/models/group.rb:15
+  [1m[36mCACHE Group Load (0.0ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  ↳ app/models/group.rb:15
+  Rendering groups/index.html.erb within layouts/application
+  Rendered groups/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 62ms (Views: 55.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/groups/new" for ::1 at 2020-07-12 22:14:10 +0530
+Processing by GroupsController#new as HTML
+  [1m[36mGroup Load (0.4ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  ↳ app/models/group.rb:15
+  [1m[36mCACHE Group Load (0.0ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  ↳ app/models/group.rb:15
+  Rendering groups/index.html.erb within layouts/application
+  [1m[36mGroup Load (0.4ms)[0m  [1m[34mSELECT `groups`.* FROM `groups`[0m
+  ↳ app/views/groups/index.html.erb:12
+  Rendered groups/index.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 17.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for "[1, 2, 3]":String):
+    14: 	    <td><%=group.id%></td>
+    15: 	    <td><%=group.name%></td>
+    16: 	    <td><%=group.round_number%></td>
+    17: 	    <td><%=name_of_selected_users(group)%></td>
+    18: 	  </tr>
+    19: 	<%end%>
+    20: </table>
+  
+app/helpers/groups_helper.rb:5:in `name_of_selected_users'
+app/views/groups/index.html.erb:17:in `block in _app_views_groups_index_html_erb__83049399_95715640'
+app/views/groups/index.html.erb:12:in `_app_views_groups_index_html_erb__83049399_95715640'
+app/controllers/groups_controller.rb:8:in `new'
+Started GET "/groups" for ::1 at 2020-07-12 22:14:15 +0530
+Processing by GroupsController#index as HTML
+  Rendering groups/index.html.erb within layouts/application
+  [1m[36mGroup Load (0.9ms)[0m  [1m[34mSELECT `groups`.* FROM `groups`[0m
+  ↳ app/views/groups/index.html.erb:12
+  Rendered groups/index.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for "[1, 2, 3]":String):
+    14: 	    <td><%=group.id%></td>
+    15: 	    <td><%=group.name%></td>
+    16: 	    <td><%=group.round_number%></td>
+    17: 	    <td><%=name_of_selected_users(group)%></td>
+    18: 	  </tr>
+    19: 	<%end%>
+    20: </table>
+  
+app/helpers/groups_helper.rb:5:in `name_of_selected_users'
+app/views/groups/index.html.erb:17:in `block in _app_views_groups_index_html_erb__83049399_108536260'
+app/views/groups/index.html.erb:12:in `_app_views_groups_index_html_erb__83049399_108536260'
+Started GET "/groups" for ::1 at 2020-07-12 22:15:02 +0530
+Processing by GroupsController#index as HTML
+  Rendering groups/index.html.erb within layouts/application
+  [1m[36mGroup Load (0.6ms)[0m  [1m[34mSELECT `groups`.* FROM `groups`[0m
+  ↳ app/views/groups/index.html.erb:12
+  Rendered groups/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 60ms (Views: 56.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 22:15:31 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 57ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups/new" for ::1 at 2020-07-12 22:15:32 +0530
+Processing by GroupsController#new as HTML
+  [1m[36mGroup Load (0.4ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  ↳ app/models/group.rb:15
+  [1m[36mCACHE Group Load (0.0ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  ↳ app/models/group.rb:15
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `departments`.`id` FROM `departments`[0m
+  ↳ app/models/department.rb:7
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 1 LIMIT 1[0m
+  ↳ app/models/department.rb:10
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 1 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  ↳ app/models/department.rb:11
+  [1m[36mDepartment Load (0.3ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 2 LIMIT 1[0m
+  ↳ app/models/department.rb:10
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 2 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  ↳ app/models/department.rb:11
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT  `departments`.* FROM `departments` WHERE `departments`.`id` = 3 LIMIT 1[0m
+  ↳ app/models/department.rb:10
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`department_id` = 3 ORDER BY `employees`.`id` ASC LIMIT 1[0m
+  ↳ app/models/department.rb:11
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/group.rb:20
+  [1m[36mGroup Create (12.8ms)[0m  [1m[32mINSERT INTO `groups` (`name`, `round_number`, `round_started_on`, `created_at`, `updated_at`, `participants`) VALUES ('Group 1', 1, '2020-07-12 00:00:00', '2020-07-12 16:45:32', '2020-07-12 16:45:32', '[1, 2, 3]')[0m
+  ↳ app/models/group.rb:20
+  [1m[35m (133.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/group.rb:20
+  Rendering groups/index.html.erb within layouts/application
+  [1m[36mGroup Load (0.9ms)[0m  [1m[34mSELECT `groups`.* FROM `groups`[0m
+  ↳ app/views/groups/index.html.erb:12
+  Rendered groups/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 391ms (Views: 157.8ms | ActiveRecord: 177.0ms)
+
+
+Started GET "/groups" for ::1 at 2020-07-12 22:16:08 +0530
+Processing by GroupsController#index as HTML
+  Rendering groups/index.html.erb within layouts/application
+  [1m[36mGroup Load (0.3ms)[0m  [1m[34mSELECT `groups`.* FROM `groups`[0m
+  ↳ app/views/groups/index.html.erb:12
+  Rendered groups/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 64ms (Views: 61.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/groups" for ::1 at 2020-07-12 22:16:11 +0530
+Processing by GroupsController#index as HTML
+  Rendering groups/index.html.erb within layouts/application
+  [1m[36mGroup Load (0.4ms)[0m  [1m[34mSELECT `groups`.* FROM `groups`[0m
+  ↳ app/views/groups/index.html.erb:12
+  Rendered groups/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 62ms (Views: 58.7ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mGroup Load (0.4ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+  [1m[36mGroup Load (0.3ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` DESC LIMIT 1[0m
+Started GET "/groups" for ::1 at 2020-07-12 22:25:57 +0530
+Processing by GroupsController#index as HTML
+  Rendering groups/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ app/views/groups/index.html.erb:12
+  [1m[36mGroup Load (0.4ms)[0m  [1m[34mSELECT `groups`.* FROM `groups`[0m
+  ↳ app/views/groups/index.html.erb:12
+  Rendered groups/index.html.erb within layouts/application (44.1ms)
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 25.8ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant GroupsHelper::User):
+    14: 	    <td><%=group.id%></td>
+    15: 	    <td><%=group.name%></td>
+    16: 	    <td><%=group.round_number%></td>
+    17: 	    <td><%=name_of_selected_users(group)%></td>
+    18: 	  </tr>
+    19: 	<%end%>
+    20: </table>
+  
+app/helpers/groups_helper.rb:6:in `block in name_of_selected_users'
+app/helpers/groups_helper.rb:5:in `each'
+app/helpers/groups_helper.rb:5:in `name_of_selected_users'
+app/views/groups/index.html.erb:17:in `block in _app_views_groups_index_html_erb__83049399_106887180'
+app/views/groups/index.html.erb:12:in `_app_views_groups_index_html_erb__83049399_106887180'
+  [1m[36mGroup Load (0.5ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` ASC LIMIT 1[0m
+  [1m[36mGroup Load (0.4ms)[0m  [1m[34mSELECT  `groups`.* FROM `groups` ORDER BY `groups`.`id` ASC LIMIT 1[0m
+  [1m[36mEmployee Load (0.5ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`id` = 1 LIMIT 1[0m
+  [1m[36mEmployee Load (0.6ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`id` = 1 LIMIT 1[0m
+Started GET "/groups" for ::1 at 2020-07-12 22:28:30 +0530
+Processing by GroupsController#index as HTML
+  Rendering groups/index.html.erb within layouts/application
+  [1m[36mGroup Load (0.5ms)[0m  [1m[34mSELECT `groups`.* FROM `groups`[0m
+  ↳ app/views/groups/index.html.erb:12
+  [1m[36mEmployee Load (0.3ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`id` = 1 LIMIT 1[0m
+  ↳ app/helpers/groups_helper.rb:6
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`id` = 2 LIMIT 1[0m
+  ↳ app/helpers/groups_helper.rb:6
+  [1m[36mEmployee Load (0.4ms)[0m  [1m[34mSELECT  `employees`.* FROM `employees` WHERE `employees`.`id` = 3 LIMIT 1[0m
+  ↳ app/helpers/groups_helper.rb:6
+  Rendered groups/index.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 136ms (Views: 86.0ms | ActiveRecord: 35.1ms)
+
+
+Started GET "/" for ::1 at 2020-07-12 22:30:23 +0530
+Processing by HomePageController#index as HTML
+  Rendering home_page/index.html.erb within layouts/application
+  Rendered home_page/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 58ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/departments" for ::1 at 2020-07-12 22:30:27 +0530
+Processing by DepartmentsController#index as HTML
+  Rendering departments/index.html.erb within layouts/application
+  [1m[36mDepartment Load (0.4ms)[0m  [1m[34mSELECT `departments`.* FROM `departments`[0m
+  ↳ app/views/departments/index.html.erb:14
+  Rendered departments/index.html.erb within layouts/application (35.7ms)
+Completed 200 OK in 91ms (Views: 55.7ms | ActiveRecord: 27.8ms)
+
+
